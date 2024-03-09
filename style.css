@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#ultimate_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* Navbar styling */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#logo{
+    padding: 5px;
+    width: 50px;
+    /* background-color: antiquewhite; */
+    background-image: url(./myntra-seeklogo.com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    scale: 0.8;
+}
+nav{
+
+}
+nav ul li{
+    margin: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#searchbar{
+    width: 26.042vw;
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: bisque; */
+}
+#searchbar input{
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+    width: 100%;
+    height: 25px;
+}
+#others{
+    width:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#profile{
+    width: 50px;
+    height: 100%;
+    background-image: url(./others_profile_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#wishlist{
+    width: 50px;
+    height: 100%;
+    background-image: url(./others_heart_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#bag{
+    width: 50px;
+    height: 100%;
+    background-image: url(./others_bag_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.personal{
+    scale: 0.8;
+}
+
+
+
+/* Main styling */
+#main_banner{
+    background-image: url(./banner.jpg);
+    width: 100vw;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#category_banner{
+    width: 100vw;
+    height: 100px;
+    background-image: url(./category_banner.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+#categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.category_list_items{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: 1.2;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#cat1{
+    background-image: url(./categories/1.jpg);
+}
+#cat2{
+    background-image: url(./categories/2.jpg);
+}
+#cat3{
+    background-image: url(./categories/3.jpg);
+}
+#cat4{
+    background-image: url(./categories/4.jpg);
+}
+#cat5{
+    background-image: url(./categories/5.jpg);
+}
+#cat6{
+    background-image: url(./categories/6.jpg);
+}
+#cat7{
+    background-image: url(./categories/7.jpg);
+}
+#cat8{
+    background-image: url(./categories/8.jpg);
+}
+#cat9{
+    background-image: url(./categories/9.jpg);
+}
+#cat10{
+    background-image: url(./categories/10.jpg);
+}
+
+#offer_banner{
+    width: 100vw;
+    height: 100px;
+    background-image: url(./offer_banner.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+#offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.offer_list_items{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: 1.2;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#ocat1{
+    background-image: url(./offers/1.png);
+}
+#ocat2{
+    background-image: url(./offers/2.png);
+}
+#ocat3{
+    background-image: url(./offers/3.png);
+}
+#ocat4{
+    background-image: url(./offers/4.png);
+}
+#ocat5{
+    background-image: url(./offers/5.png);
+}
+#ocat6{
+    background-image: url(./offers/6.png);
+}
+#ocat7{
+    background-image: url(./offers/7.png);
+}
+#ocat8{
+    background-image: url(./offers/8.png);
+}
+#ocat9{
+    background-image: url(./offers/9.png);
+}
+#ocat10{
+    background-image: url(./offers/10.png);
+}
+
+
+
+/* Footer styling */
+#footer_banner{
+    background-image: url(./footer_banner.webp);
+    width: 100vw;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer_info{
+    background-image: url(./footer_info.png);
+    width: 100vw;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:1177px) and (min-width:936px) {
+    #searchbar{
+        width: 23vw;
+    }
+}
+@media screen and (max-width:936px) and (min-width:824px) {
+    #searchbar{
+        display: none;
+    }
+}
+@media screen and (max-width:824px) and (min-width:652px) {
+    #others{
+        display: none;
+    }
+    #searchbar{
+        display: none;
+    }
+} 
+@media screen and (max-width:652px) and (min-width:588px) {
+    #others{
+        display: none;
+    }
+    #searchbar{
+        display: none;
+    }
+    header{
+        flex-direction: column;
+        width: 100vw;
+    }
+    nav{
+        display: none;
+    }
+    #logo{
+        width: 100vw;
+        background-image: url(./Myntra_logo_banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        scale: 5;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+} 
+@media screen and (max-width:588px) {
+    #logo{
+        width: 100vw;
+        background-image: url(./Myntra_logo_banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        scale: 5;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    nav{
+        display: none;
+
+    }
+    #others{
+        display: none;
+    }
+    #searchbar{
+        display: none;
+    }
+    /* #categories{
+        background-image: url(./categories_logo.svg);
+    } */
+}
